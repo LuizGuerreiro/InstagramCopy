@@ -1,0 +1,117 @@
+* {
+   margin: 0;
+   border: 0;
+   padding: 0;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+body {
+   max-width: 900px;
+   background-color: rgba(250, 250, 250, 1);
+   margin: 0 auto;
+}
+
+.instagramInit {
+   display: flex;
+   align-items: center;
+   margin-top: 10vh;
+   width: 100%;
+}
+
+.instagramLogin {
+   display: flex;
+   flex-direction: column;
+   gap: 1px;
+   text-align: center;
+}
+
+.instagramLogin .divLog {
+   background-color: rgba(255, 255, 255, 1);
+   border: 1px solid rgba(219, 219, 219, 1);
+   padding: 10px 40px;
+   border-radius: 1px;
+   margin-bottom: 10px;
+   padding-bottom: 15px;
+}
+
+.instagramLogin img.insta {
+   width: 175px;
+}
+
+.instagramLogin div:last-child img {
+   height: 40px;
+}
+
+.instagramLogin img.face {
+   width: 16px;
+}
+
+.instagramLogin form,
+.instagramLogin button,
+input {
+   width: 268px;
+}
+
+.instagramLogin button {
+   background-color: rgba(0, 149, 246, 0.3);
+   padding: 5px 9px;
+   font-size: 14px;
+   line-height: 19px;
+   color: rgba(255, 255, 255, 1);
+   border-radius: 4px;
+   margin-top: 15px;
+   font-weight: 400;
+}
+
+.instagramLogin form input {
+   font-size: 16px;
+   line-height: 21px;
+   background-color: rgba(250, 250, 250, 1);
+   border: 1px solid rgba(38, 38, 38, 0.2);
+   padding: 7px 0 9px 8px;
+   border-radius: 4px;
+   margin-top: 8px;
+}
+
+.instagramLogin form input::placeholder {
+   font-size: 12px;
+   line-height: 18px;
+   color: #8e8e8e;
+   font-weight: 300;
+}
+
+.instagramLogin .divLog p {
+   font-size: 13px;
+   line-height: 15px;
+   color: rgba(142, 142, 142, 1);
+   text-transform: uppercase;
+   margin-top: 15px;
+}
+
+.instagramLogin .divLog a.face {
+   color: #385185;
+}
+
+.instagramLogin .divLog p.create {
+   font-size: 16px;
+   margin: 15px;
+   color: rgba(38, 38, 38, 0.9);
+   text-transform: initial;
+}
+
+.instagramLogin .divLog a.create {
+   color: rgba(0, 149, 249, 1);
+}
+
+.instagramLogin .divLog div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   margin: 10px;
+}
+
+.instagramLogin div.app p {
+   margin: 15px;
+}
